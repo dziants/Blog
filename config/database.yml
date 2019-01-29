@@ -26,4 +26,8 @@ test:
 
 production:
   <<: *default
-  database: blog_production
+  host: sql9.freemysqlhosting.net
+  url: jdbc:mysql://sql9.freemysqlhosting.net
+  database: sql9274557
+  username: sql9274557
+  password: mySQL6468
